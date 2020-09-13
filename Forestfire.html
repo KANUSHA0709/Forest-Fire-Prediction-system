@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>Animatory background</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style2.css') }}">
+</head>
+<body>
+<section>
+<p align="center"><font size="10" color="white"><font face="Allegro">Forest Fire Prediction System</font></p>
+<div class="box">
+<form action="login" method="post">
+
+<div class="inputBox">
+<input type="text" name="temp" required="">
+<label>Temperature</label>
+</div>
+
+<div class="inputBox">
+<input type="text" name="oxy" required="">
+<label>Oxygen</label>
+</div>
+
+<div class="inputBox">
+<input type="text" name="humi" required="">
+<label>Humidity</label>
+</div>
+
+<input type="submit" name="" value="Submit" align="center">
+</form>
+<b><font color="white"><font size="3">{{label}}</font></b>
+</div>
+</section>
+</body>
+</html>
